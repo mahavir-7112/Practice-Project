@@ -1,0 +1,367 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: black;
+    
+}
+
+.main{
+
+    background-image: url("backgro\ netflix.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.box{
+
+    height: 100vh;
+    width: 100%;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img{
+
+    color: red;
+    width: 130px;
+    
+    
+    position: relative;
+    z-index: 10;
+    margin-top: 30px;
+
+}
+
+nav button{
+
+    position: relative;
+    
+    z-index: 10;
+    margin-top: 30px;
+    height: 35px;
+    width: 89px;
+    border-radius: 6px;
+}
+.hero{
+
+    height:92%;
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    bottom: 23px;
+    padding: 0;
+}
+
+.hero > :nth-child(1){
+
+    font-weight:900;
+    font-size: 55px;
+    text-align: center;
+
+}
+.hero > :nth-child(2)
+{
+    
+    font-weight: 900;
+    font-size: 55px;
+    text-align: center;
+}
+.hero > :nth-child(3)
+{
+    
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.separation{
+
+    height: 7px;
+    background-color: rgb(127, 122, 122);
+    
+    
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color:rgba(248, 243, 243, 0.021);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.296);
+    cursor: pointer;
+
+}
+.btn-red{
+
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+.btn-red-sm{
+
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+
+}
+.main input{
+
+    padding: 15px 20px;
+    color: white;
+    border-radius: 8px;
+    
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(241, 233, 233, 0.2);
+    width: 300px;
+}
+.hero-button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.trendText{
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 100px;
+    top:23px;
+    
+    
+}
+.boxes{
+
+    height: 300px;
+    width: 1000px;
+    border: 2px solid rgb(11, 9, 9);
+    position: relative;
+    top: 45px;
+    left: 250px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+
+}
+.boxes img{
+
+    border-radius: 13px;
+    height: 250px;
+    margin: 23px;
+   
+
+}
+
+
+.boxes img:hover{
+
+    
+    /*animation-name: abani;
+    animation-duration: ;*/
+    border: 2px solid rgb(66, 65, 67);
+    cursor: pointer;
+    height: 255px;
+    box-shadow: 3px 45px 12px 10px #3d0101;
+}
+
+.helpBox{
+
+    height: 23px;
+    width: 1000px;
+    border: 2px solid rgb(14, 13, 13);
+    position: relative;
+    top: 19px;
+    left: 245px;
+    background-color: black;
+}
+.trendText2{
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 100px;
+    top:30px;
+
+
+}
+.boxing3{
+
+    height: 400px;
+    width: 1300px;
+    position: relative;
+    top: 55px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.itemBox{
+
+    height: 300px;
+    width: 300px;
+    
+    margin: 20px;
+    border-radius: 23px;
+    word-wrap: break-word;      /* For long words */
+    overflow-wrap: break-word;  /* Modern alternative */
+    white-space: normal;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #09285c, #52043c6c);
+    
+    
+    
+}
+.data1{
+
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.data2{
+
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: 40px;
+    left: 13px;
+    line-height: 1.5;
+    color:rgb(169, 175, 175)
+
+}
+.trendText3{
+
+    
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 100px;
+    top: 60px;
+
+}
+.boxing4{
+
+
+    height: 550px;
+    width: 1265px;
+    border: 2px solid black;
+    position: relative;
+    top: 120px;
+    left: 100px;
+
+}
+.ite{
+
+    height: 90px;
+    width: 1265px;
+    
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(54, 52, 52, 0.841);
+    border-radius: 4px;
+    opacity: 0.;
+}
+
+.textCenter{
+
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.ite:hover{
+
+    background-color: rgba(87, 85, 85, 0.841);
+
+}
+.plu{
+
+    font-size: 60px;
+    position: relative;
+    left: 1200px;
+    bottom: 16px;
+    
+}
+.text1{
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jay{
+
+    position: relative;
+    top: 270px;
+    left: 400px;
+    
+}
+.jay input{
+
+    height: 45px;
+    width: 600px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 4px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(241, 233, 233, 0.2);
+}
+.dibba{
+
+    height: 500px;
+    width: 1100px;
+    border: 2px solid black;
+    position: relative;
+    top: 360px;
+    left: 115px;
+    cursor: pointer;
+
+}
